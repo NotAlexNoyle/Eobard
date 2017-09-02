@@ -5,9 +5,9 @@ This task can be done in half the lines and much less complexity by using the "S
 
 Screenshots:
 
-i.imgur.com/aGiGjwJ.png
+![First Launch](i.imgur.com/aGiGjwJ.png)
 
-i.imgur.com/aG123cc.png
+![Result](i.imgur.com/aG123cc.png)
 
 To run:
 
@@ -22,16 +22,16 @@ Below is a much simpler way to do this. Enjoy:
 
 ================================================
 
-import javax.swing.JOptionPane;
+	import javax.swing.JOptionPane;
 
-public class TestingGrounds {
+	public class TestingGrounds {
 
-	public static void main(String[] args) {
+		public static void main(String[] args) {
 
-		String stringToReverse = JOptionPane.showInputDialog(null, "String To Reverse:");
+			String stringToReverse = JOptionPane.showInputDialog(null, "String To Reverse:");
 
-		JOptionPane.showMessageDialog(null, new StringBuilder(stringToReverse).reverse().toString());
+			JOptionPane.showMessageDialog(null, new StringBuilder(stringToReverse).reverse().toString());
+
+		}
 
 	}
-
-}
