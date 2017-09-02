@@ -5,9 +5,9 @@ This task can be done in half the lines and much less complexity by using the "S
 
 Screenshots:
 
-![First Launch](i.imgur.com/aGiGjwJ.png)
+![First Launch](http://i.imgur.com/aGiGjwJ.png)
 
-![Result](i.imgur.com/aG123cc.png)
+![Result](http://i.imgur.com/aG123cc.png)
 
 To run:
 
