@@ -1,7 +1,11 @@
 # Eobard
-Java application that reverses any given text. Built for practice.
 
-This task can be done in half the lines and much less complexity by using the "StringBuilder" calss, but I wanted to build it on my own to get un-rusty from basic Java, so the only thing I allowed myself to use was basic programmatic operations and ArrayList.
+This task can be done in much less lines and much less visual complexity by using the "StringBuilder" class, but I wanted to build it on my own to practice writing Java, so the only thing I allowed myself to use is basic programmatic operations.
+
+Changelog:
+
+- Version 2.0 - The much unexpected release! Eobard is now completely refactored and documented. This version eliminates the need for the "ArrayList" library, and now the only non-default library used is JOptionPane. I also fixed the readme a bit. 
+- Version 1.0 - Initial Release
 
 Screenshots:
 
@@ -13,18 +17,18 @@ To run:
 
 1. Download .jar
 2. Open shell
-3. cd to download directory
+3. cd to clone directory
 4. Type "java -jar Eobard.jar"
 5. Profit?
 
 
-Below is a much simpler way to do this. Enjoy: 
+Below is a much simpler way to do this yourself using the StringBuilder class. Enjoy: 
 
 ================================================
 
 	import javax.swing.JOptionPane;
 
-	public class TestingGrounds {
+	public class ReverseAString {
 
 		public static void main(String[] args) {
 
