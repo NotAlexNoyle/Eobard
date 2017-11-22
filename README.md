@@ -1,6 +1,6 @@
 # Eobard
 
-An Java desktop application for reversing any text quickly and elegantly. Built with elementaryOS.
+A Java desktop application for reversing any text quickly and elegantly. Built with elementaryOS.
 
 Changelog:
 
