@@ -4,6 +4,9 @@ A Java desktop application for reversing any text quickly and elegantly. Built w
 
 Changelog:
 
+- Version 3.0.1:
+	- Simplified input validation code
+
 - Version 3.0:
 	- Changed GUI to use "text" terminology rather than "string".
 	- Completely refactored input validation to check for input comprised entirely of whitespace.

@@ -31,25 +31,21 @@ public class Eobard {
 				
 			}
 			
-			// Runs if user input is not whitespace
-			if(isPopulated) {
-				
-				// Calls stringReverser method and stores output as String
-				String result = stringReverser(stringToReverse);
-				
-				// Displays result to user (with formatting)
-				JOptionPane.showConfirmDialog(null, new Object[]{"Reversed Text: ", result}, "Eobard", JOptionPane.DEFAULT_OPTION);
-				
-			}
 			// Runs if user input is whitespace
-			else {
-					
+			if(! isPopulated) {
+				
 				// Asks user to re-enter their input so that it is not blank (until it is or the user closes the program). Passes the value to original input string for re-evaluation
 				stringToReverse = JOptionPane.showInputDialog(null, "You left the search field blank, please try again:", "Eobard", JOptionPane.INFORMATION_MESSAGE);
 				
 			}
-		
+
 		}
+		
+		// Calls stringReverser method and stores output as String
+		String result = stringReverser(stringToReverse);
+		
+		// Displays result to user (with formatting)
+		JOptionPane.showConfirmDialog(null, new Object[]{"Reversed Text: ", result}, "Eobard", JOptionPane.DEFAULT_OPTION);
 
 	}
 	
