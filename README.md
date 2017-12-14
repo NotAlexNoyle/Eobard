@@ -4,6 +4,9 @@ A Java desktop application for reversing any text quickly and elegantly. Built w
 
 Changelog:
 
+- Version 3.0.2:
+	- Made error message make more sense
+
 - Version 3.0.1:
 	- Simplified input validation code
 

@@ -14,9 +14,9 @@ public class Eobard {
 		String stringToReverse = JOptionPane.showInputDialog(null, "Text To Reverse:", "Eobard", JOptionPane.INFORMATION_MESSAGE);
 		
 		// Keeps track of whether or not the user input is blank
-		boolean isPopulated = false;
+		boolean hasCharacters = false;
 		// Runs while user input is blank
-		while(isPopulated == false) {
+		while(hasCharacters == false) {
 			
 			// Checks individual characters to see if they are comprised of only whitespace
 			for(int i = 0; i < stringToReverse.length(); i++) {
@@ -25,17 +25,17 @@ public class Eobard {
 				if(Character.isWhitespace(stringToReverse.charAt(i)) == false) {
 					
 					// Breaks out of loops when user input contains non-whitespace characters
-					isPopulated = true;
+					hasCharacters = true;
 					
 				}
 				
 			}
 			
 			// Runs if user input is whitespace
-			if(! isPopulated) {
+			if(hasCharacters == false) {
 				
 				// Asks user to re-enter their input so that it is not blank (until it is or the user closes the program). Passes the value to original input string for re-evaluation
-				stringToReverse = JOptionPane.showInputDialog(null, "You left the search field blank, please try again:", "Eobard", JOptionPane.INFORMATION_MESSAGE);
+				stringToReverse = JOptionPane.showInputDialog(null, "You left the field blank. Please try again. Text To Reverse: ", "Eobard", JOptionPane.INFORMATION_MESSAGE);
 				
 			}
 
